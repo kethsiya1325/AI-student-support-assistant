@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Student Support Assistant | College Regulations, Syllabus, FAQs & Notices</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- Markdown parser -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <div class="app-container">
+    <!-- Top Navigation Bar -->
+    <header class="top-bar">
+      <div class="brand-area">
+        <div class="logo-shield">🎓</div>
+        <div class="brand-text">
+          <h1>AI Student Support Assistant</h1>
+          <span class="sub-badge">Autonomous College Portal • RAG + Tools + Memory</span>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <!-- Active Student Profile Pill -->
+        <div class="profile-pill" id="profilePill" title="Click to switch or edit student persona">
+          <div class="avatar-circle" id="userAvatar">AC</div>
+          <div class="profile-info-mini">
+            <span class="p-name" id="pillName">Alex Chen</span>
+            <span class="p-details" id="pillDetails">CSE • Sem 4 • 21CS042</span>
+          </div>
+          <span class="pill-caret">▼</span>
+        </div>
+
+        <button class="nav-btn" id="openDocsBtn" title="Explore university regulations, syllabus, and circulars">
+          📚 Knowledge Base
+        </button>
+        <button class="nav-btn" id="openSettingsBtn" title="Configure AI engine & Gemini API key">
+          ⚙️ Settings
+        </button>
+        <button class="nav-btn text-btn" id="clearChatBtn" title="Clear chat session memory">
+          🧹 Reset
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Content Layout -->
+    <div class="main-layout">
+      <!-- Left Sidebar: Student Memory, Prompt Starters & Notices -->
+      <aside class="sidebar">
+        <!-- Active Persona Card -->
+        <div class="card persona-card">
+          <div class="card-header">
+            <div class="card-title-group">
+              <span class="card-icon">👤</span>
+              <h3>Student Profile Memory</h3>
+            </div>
+            <button class="btn-micro" id="switchProfileBtn">Switch</button>
+          </div>
+          <div class="persona-details" id="personaDetailsBox">
+            <div class="persona-row">
+              <span class="label">Name:</span>
+              <span class="value" id="sideName">Alex Chen</span>
+            </div>
+            <div class="persona-row">
+              <span class="label">Roll Number:</span>
+              <span class="value code-val" id="sideRoll">21CS042</span>
+            </div>
+            <div class="persona-row">
+              <span class="label">Department:</span>
+              <span class="value" id="sideDept">Computer Science</span>
+            </div>
+            <div class="persona-row">
+              <span class="label">Semester:</span>
+              <span class="value" id="sideSem">Semester 4</span>
+            </div>
+            <div class="persona-row">
+              <span class="label">Academic Standing:</span>
+              <span class="value highlight-val" id="sideCgpa">CGPA 8.42 (74 Cr)</span>
+            </div>
+            <div class="persona-row">
+              <span class="label">Residence:</span>
+              <span class="value" id="sideRes">Day Scholar</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Prompt Starters / Categories -->
+        <div class="card starters-card">
+          <div class="card-header">
+            <div class="card-title-group">
+              <span class="card-icon">💡</span>
+              <h3>Sample Queries</h3>
+            </div>
+          </div>
+          <div class="category-tabs">
+            <button class="cat-tab active" data-cat="reg">📜 Regulations</button>
+            <button class="cat-tab" data-cat="syl">📘 Syllabus</button>
+            <button class="cat-tab" data-cat="tools">🛠️ Tools</button>
+            <button class="cat-tab" data-cat="notices">📢 Notices</button>
+            <button class="cat-tab" data-cat="faqs">ℹ️ FAQs</button>
+          </div>
+          <div class="chips-list" id="chipsContainer">
+            <!-- Dynamically populated chips -->
+          </div>
+        </div>
+
+        <!-- Live Notices Bulletin -->
+        <div class="card notices-card">
+          <div class="card-header">
+            <div class="card-title-group">
+              <span class="card-icon">📢</span>
+              <h3>Active Circulars</h3>
+            </div>
+            <span class="live-dot" title="Live university notices"></span>
+          </div>
+          <div class="notices-ticker" id="noticesTicker">
+            <div class="notice-item-mini">
+              <span class="tag-urgent">URGENT</span>
+              <p>Exam Fee Payment without fine closes March 25</p>
+            </div>
+            <div class="notice-item-mini">
+              <span class="tag-high">HIGH</span>
+              <p>Even Semester Theory Exams start May 4, 2026</p>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Center: Interactive Chat Stream -->
+      <main class="chat-viewport">
+        <!-- Messages Area -->
+        <div class="messages-container" id="messagesContainer">
+          <!-- Welcome Greeting Message -->
+          <div class="message assistant-message">
+            <div class="msg-avatar">🤖</div>
+            <div class="msg-bubble">
+              <div class="msg-header">
+                <span class="msg-sender">AI Student Support Assistant</span>
+                <span class="msg-tag">RAG + Tools + Memory Active</span>
+              </div>
+              <div class="msg-content">
+                <p>Hello <strong>Alex Chen</strong>! I'm your autonomous college support assistant. I have indexed your university's <strong>Academic Regulations</strong>, <strong>Department Syllabi</strong>, <strong>Campus FAQs</strong>, and <strong>Active Notices</strong>.</p>
+                <p>I also have built-in agent tools to calculate your <strong>SGPA/CGPA</strong>, check your <strong>exam attendance eligibility</strong> (Clause 6.1/6.2/6.3), and look up course units & schedules.</p>
+                <div class="quick-intro-grid">
+                  <div class="intro-box" onclick="sendPrompt('What is the minimum attendance required to appear for semester exams?')">
+                    <span class="intro-icon">📜</span>
+                    <strong>Attendance Rules</strong>
+                    <small>Clause 6.1 & 6.2 condonation</small>
+                  </div>
+                  <div class="intro-box" onclick="sendPrompt('I attended 32 out of 45 classes in OS, am I eligible?')">
+                    <span class="intro-icon">📊</span>
+                    <strong>Attendance Tool</strong>
+                    <small>Auto-checks condonation</small>
+                  </div>
+                  <div class="intro-box" onclick="sendPrompt('What are the units and topics in CS204 Operating Systems?')">
+                    <span class="intro-icon">📘</span>
+                    <strong>Syllabus RAG</strong>
+                    <small>Course breakdown & books</small>
+                  </div>
+                  <div class="intro-box" onclick="sendPrompt('Calculate my GPA: OS grade A+ (4 credits), DBMS grade O (4 credits), Algorithms grade A (4 credits)')">
+                    <span class="intro-icon">🎓</span>
+                    <strong>GPA Calculator</strong>
+                    <small>10-point scale tool</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chat Input Form -->
+        <div class="input-container">
+          <form class="chat-form" id="chatForm">
+            <div class="input-wrapper">
+              <textarea
+                id="userInput"
+                placeholder="Ask any college question, syllabus lookup, or attendance calculation..."
+                rows="1"
+                autofocus
+              ></textarea>
+              <button type="submit" class="send-btn" id="sendBtn" title="Send message">
+                <span class="send-arrow">➤</span>
+              </button>
+            </div>
+          </form>
+          <div class="input-footer">
+            <span>Powered by RAG Semantic Search & Collegiate Agent Tools</span>
+            <span id="modelIndicator" class="model-badge">Engine: Local Semantic Agent</span>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- Modal: Student Persona Switcher -->
+  <div class="modal-overlay" id="profileModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2>🎓 Switch Student Persona (Profile Memory)</h2>
+        <button class="modal-close" onclick="closeModal('profileModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-intro">The assistant automatically tailors its answers (curriculum, courses, fees, regulations) based on the active student profile in memory.</p>
+        <div class="persona-grid" id="personaOptionsContainer">
+          <!-- Populated dynamically via JS -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Knowledge Base Explorer -->
+  <div class="modal-overlay" id="docsModal">
+    <div class="modal-card modal-card-large">
+      <div class="modal-header">
+        <h2>📚 University Knowledge Base Browser</h2>
+        <button class="modal-close" onclick="closeModal('docsModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="docs-filter-bar">
+          <input type="text" id="docsSearchInput" placeholder="Filter documents by keyword or code (e.g. CS204, Clause 6, Hostel)...">
+          <select id="docsCategorySelect">
+            <option value="all">All Categories</option>
+            <option value="regulations">Academic Regulations</option>
+            <option value="syllabus">Curriculum & Syllabus</option>
+            <option value="faqs">Student FAQs</option>
+            <option value="notices">Official Notices</option>
+            <option value="calendar">Academic Calendar</option>
+            <option value="faculty">Faculty Directory</option>
+          </select>
+        </div>
+        <div class="docs-list" id="docsListContainer">
+          <!-- Documents listed dynamically -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Settings -->
+  <div class="modal-overlay" id="settingsModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2>⚙️ Assistant Configuration</h2>
+        <button class="modal-close" onclick="closeModal('settingsModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-intro">Configure external LLM connectivity or keep using the built-in local semantic agent engine.</p>
+        <div class="form-group">
+          <label for="geminiApiKeyInput">Google Gemini API Key (Optional)</label>
+          <input type="password" id="geminiApiKeyInput" placeholder="AIzaSy...">
+          <small>Leave blank to run 100% offline using the built-in local reasoning agent.</small>
+        </div>
+        <div class="form-group">
+          <label for="geminiModelSelect">Gemini Model</label>
+          <select id="geminiModelSelect">
+            <option value="gemini-2.0-flash" selected>gemini-2.0-flash (Fast & Accurate)</option>
+            <option value="gemini-1.5-flash">gemini-1.5-flash</option>
+            <option value="gemini-1.5-pro">gemini-1.5-pro</option>
+          </select>
+        </div>
+        <div class="settings-actions">
+          <button class="btn-primary" id="saveSettingsBtn">Save Settings</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Citation Detail Popover / Toast -->
+  <div class="citation-popover" id="citationPopover">
+    <div class="citation-popover-header">
+      <strong id="citeSource">Regulation Clause 6.1</strong>
+      <button class="pop-close" onclick="hideCitation()">&times;</button>
+    </div>
+    <div class="citation-popover-body" id="citeContent">Details...</div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

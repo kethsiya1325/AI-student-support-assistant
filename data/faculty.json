@@ -1,0 +1,57 @@
+[
+  {
+    "id": "FAC-01",
+    "name": "Dr. Rajesh Ramanathan",
+    "designation": "Professor & Head of Department",
+    "department": "Computer Science & Engineering",
+    "departmentCode": "CSE",
+    "email": "rajesh.raman@college.edu",
+    "cabin": "CS Block, Room 301 (3rd Floor)",
+    "officeHours": "Monday & Wednesday: 2:00 PM - 4:00 PM",
+    "specialization": "Distributed Systems, Operating Systems, Cloud Computing"
+  },
+  {
+    "id": "FAC-02",
+    "name": "Dr. Ananya Sengupta",
+    "designation": "Associate Professor",
+    "department": "Computer Science & Engineering",
+    "departmentCode": "CSE",
+    "email": "ananya.s@college.edu",
+    "cabin": "CS Block, Room 214 (2nd Floor)",
+    "officeHours": "Tuesday & Thursday: 10:30 AM - 12:30 PM",
+    "specialization": "Database Systems, Big Data Analytics, NoSQL"
+  },
+  {
+    "id": "FAC-03",
+    "name": "Prof. Karthik Venkatesh",
+    "designation": "Assistant Professor (Senior Grade)",
+    "department": "Computer Science & Engineering",
+    "departmentCode": "CSE",
+    "email": "karthik.v@college.edu",
+    "cabin": "CS Block, Room 108 (1st Floor)",
+    "officeHours": "Daily: 3:30 PM - 4:30 PM",
+    "specialization": "Artificial Intelligence, Deep Learning, Reinforcement Learning"
+  },
+  {
+    "id": "FAC-04",
+    "name": "Dr. Meenakshi Sundaram",
+    "designation": "Professor & Dean (Academics)",
+    "department": "Electronics & Communication Engineering",
+    "departmentCode": "ECE",
+    "email": "dean.academics@college.edu",
+    "cabin": "Administrative Block, Room 102",
+    "officeHours": "Tuesday & Friday: 3:00 PM - 5:00 PM",
+    "specialization": "VLSI Design, Digital Signal Processing, Embedded Systems"
+  },
+  {
+    "id": "FAC-05",
+    "name": "Prof. S. Divya",
+    "designation": "Assistant Professor",
+    "department": "Electronics & Communication Engineering",
+    "departmentCode": "ECE",
+    "email": "divya.s@college.edu",
+    "cabin": "ECE Block, Room 205",
+    "officeHours": "Monday & Thursday: 11:00 AM - 1:00 PM",
+    "specialization": "Microprocessors & Microcontrollers, IoT Sensors"
+  }
+]

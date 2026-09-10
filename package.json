@@ -1,0 +1,27 @@
+{
+  "name": "ai-student-support-assistant",
+  "version": "1.0.0",
+  "description": "AI Student Support Assistant with RAG, Tools, and Memory for College Regulations, Syllabus, FAQs and Notices",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node test/verify.js"
+  },
+  "keywords": [
+    "ai",
+    "student-support",
+    "rag",
+    "tools",
+    "memory",
+    "college-assistant"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}

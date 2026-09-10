@@ -1,0 +1,68 @@
+[
+  {
+    "event": "Commencement of Even Semester Classes",
+    "date": "2026-01-05",
+    "category": "Academic",
+    "description": "Classes begin for Semesters 2, 4, 6, and 8."
+  },
+  {
+    "event": "Course Add / Drop Deadline",
+    "date": "2026-01-19",
+    "category": "Academic",
+    "description": "Last date to change elective options without penalty."
+  },
+  {
+    "event": "Continuous Internal Assessment (CIA - 1)",
+    "date": "2026-02-16 to 2026-02-21",
+    "category": "Examinations",
+    "description": "First mid-term tests covering Units 1 & 2."
+  },
+  {
+    "event": "Continuous Internal Assessment (CIA - 2)",
+    "date": "2026-03-30 to 2026-04-04",
+    "category": "Examinations",
+    "description": "Second mid-term tests covering Units 3, 4 & 5."
+  },
+  {
+    "event": "Last Date for Exam Fee Payment without Fine",
+    "date": "2026-03-25",
+    "category": "Deadlines",
+    "description": "Last date for regular and arrear examination fee submission."
+  },
+  {
+    "event": "Annual Cultural & Tech Festival 'Aura 2026'",
+    "date": "2026-04-10 to 2026-04-12",
+    "category": "Events",
+    "description": "3-day inter-collegiate cultural fest."
+  },
+  {
+    "event": "End of Instruction / Last Working Day",
+    "date": "2026-04-17",
+    "category": "Academic",
+    "description": "Completion of 90 instructional days for Even Semester."
+  },
+  {
+    "event": "Practical & Laboratory Semester Examinations",
+    "date": "2026-04-20 to 2026-04-27",
+    "category": "Examinations",
+    "description": "External practical exams and viva-voce."
+  },
+  {
+    "event": "Release of End-Sem Exam Hall Tickets on ERP",
+    "date": "2026-04-28",
+    "category": "Examinations",
+    "description": "Hall ticket generation for students with attendance >= 75%."
+  },
+  {
+    "event": "Theory End-Semester Examinations",
+    "date": "2026-05-04 to 2026-05-26",
+    "category": "Examinations",
+    "description": "Regular and supplementary university theory examinations."
+  },
+  {
+    "event": "Summer Vacation Begins",
+    "date": "2026-05-27",
+    "category": "Vacation",
+    "description": "Summer break for students; internship period starts June 1."
+  }
+]

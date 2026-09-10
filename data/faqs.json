@@ -1,0 +1,66 @@
+[
+  {
+    "id": "FAQ-01",
+    "question": "What are the hostel curfew timings and outing rules?",
+    "category": "faqs",
+    "section": "Hostel & Residential Life",
+    "answer": "The evening curfew time is 8:30 PM for girls' hostels and 9:00 PM for boys' hostels. Biometric punching is mandatory upon entry. For day outings (up to 8:00 PM), students must generate an electronic gate pass on the ERP portal. For night or weekend home visits, a weekend pass must be applied at least 24 hours in advance on the portal, which requires parent approval via registered SMS/call confirmation.",
+    "tags": ["hostel", "curfew", "timings", "gate pass", "outing", "biometric", "warden"]
+  },
+  {
+    "id": "FAQ-02",
+    "question": "How can I apply for a mess fee rebate during leave?",
+    "category": "faqs",
+    "section": "Hostel & Residential Life",
+    "answer": "Mess rebate is granted if a resident student is absent from the hostel for at least 5 consecutive calendar days on officially sanctioned leave or university vacations. The student must submit a Mess Reduction Application online via the ERP hostel portal at least 48 hours before departing. A rebate of Rs. 120 per day is credited to the subsequent month's mess ledger.",
+    "tags": ["mess rebate", "mess reduction", "hostel food", "refund", "leave"]
+  },
+  {
+    "id": "FAQ-03",
+    "question": "What is the library book borrowing limit and what are the overdue fines?",
+    "category": "faqs",
+    "section": "Central Library",
+    "answer": "Undergraduate (B.Tech) students can borrow up to 4 books simultaneously for a loan period of 14 calendar days. Books can be renewed once online via the OPAC portal if no hold/reservation exists. An overdue fine of Rs. 2 per book per day is charged for the first 7 days, increasing to Rs. 5 per book per day thereafter. The Central Library is open from 8:00 AM to 10:00 PM on all working days, with 24x7 reading hall access during semester exam periods.",
+    "tags": ["library", "books", "borrowing", "fine", "opac", "timings", "due date"]
+  },
+  {
+    "id": "FAQ-04",
+    "question": "How do I connect my laptop or smartphone to the campus Wi-Fi network?",
+    "category": "faqs",
+    "section": "IT Services & Network",
+    "answer": "1. Connect to the SSID 'Campus-Student-5G'.\n2. Open your web browser which automatically redirects to the Captive Portal login (172.16.1.1).\n3. Enter your Roll Number as the username and your ERP password.\n4. Each student is permitted up to 2 active devices. For MAC address binding or connection issues, visit the IT Helpdesk at Ground Floor, Computer Center (Lab 1) or email itsupport@college.edu.",
+    "tags": ["wifi", "internet", "campus-student-5g", "login", "captive portal", "it helpdesk"]
+  },
+  {
+    "id": "FAQ-05",
+    "question": "How do I apply for and collect a Bonafide Certificate?",
+    "category": "faqs",
+    "section": "Academic Administration",
+    "answer": "Students can apply for a Bonafide Certificate (for bank education loans, passport verification, bus passes, or internship applications) by logging into the Student ERP portal -> Student Services -> Request Certificates -> Select 'Bonafide Certificate' and specify the purpose. The processing turnaround time is 2 working days. Once approved, an electronically digitally signed copy is downloadable via ERP, or a physical stamped copy can be collected from Administrative Block Counter 3.",
+    "tags": ["bonafide certificate", "bank loan", "passport", "erp", "admin counter"]
+  },
+  {
+    "id": "FAQ-06",
+    "question": "What is the tuition fee payment deadline and late fee fine structure?",
+    "category": "faqs",
+    "section": "Finance & Accounts",
+    "answer": "Semester tuition fees must be paid on or before the reopening date of the semester through SBI Collect or the official college payment gateway. If unpaid by the due date:\n- Grace period: 7 calendar days with no fine.\n- 8 to 15 days late: Late fee fine of Rs. 500.\n- 16 to 30 days late: Late fee fine of Rs. 1,500.\nAfter 30 days, the student's name is temporarily struck from the active roll and ERP access is locked until clearance from the Finance Officer.",
+    "tags": ["fees", "tuition", "late fee", "fine", "payment", "sbi collect", "deadline"]
+  },
+  {
+    "id": "FAQ-07",
+    "question": "What scholarships are available and what are the eligibility criteria?",
+    "category": "faqs",
+    "section": "Scholarships & Financial Aid",
+    "answer": "Three categories of scholarships are available:\n1. Merit-cum-Means College Scholarship: 50% tuition waiver for students with CGPA >= 8.5 and annual parental income < Rs. 4.5 Lakhs.\n2. State Government Post-Matric / BC-MBC-SC-ST Scholarships: Full tuition and exam fee reimbursement as per welfare department norms.\n3. National Scholarship Portal (NSP) schemes (Central Sector, AICTE Pragati & Saksham for girl students and differently-abled students).\nApplications open annually in August; contact the Scholarship Cell, Room 204.",
+    "tags": ["scholarship", "financial aid", "merit", "pragati", "fee waiver", "cgpa criteria"]
+  },
+  {
+    "id": "FAQ-08",
+    "question": "What are the eligibility criteria for participating in campus placements?",
+    "category": "faqs",
+    "section": "Training & Placement Cell",
+    "answer": "To register with the Training & Placement Cell and sit for campus recruitment drives:\n1. Minimum CGPA of 7.00 across all completed semesters with no active/standing arrears at the time of the drive (Tier-1 Dream companies like Google/Microsoft often require CGPA >= 8.5).\n2. Minimum 60% aggregate in 10th and 12th standard board exams.\n3. Mandatory minimum 80% attendance in soft skills, aptitude, and technical training modules conducted in the 5th and 6th semesters.\n4. One-offer policy applies: Once a student receives a core/marquee offer, they are eligible only for Dream / Super Dream tier companies.",
+    "tags": ["placement", "campus drive", "jobs", "internship", "cgpa requirement", "backlogs", "companies"]
+  }
+]

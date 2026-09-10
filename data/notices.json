@@ -1,0 +1,62 @@
+[
+  {
+    "id": "NOT-2026-04",
+    "noticeNumber": "COE/EXAM/2026/04",
+    "title": "End-Semester Theory & Practical Examination Schedule (Even Semester 2026)",
+    "category": "notices",
+    "datePublished": "2026-03-01",
+    "urgency": "High",
+    "department": "All Departments",
+    "summary": "Practical laboratory exams will be conducted from April 20 to April 27, 2026. Theory semester examinations will commence on May 4, 2026 and conclude on May 26, 2026. Detailed timetable is published on the ERP examination portal. Hall tickets can be downloaded starting April 28, 2026 by eligible students with >= 75% attendance.",
+    "actionRequired": "Download hall ticket from ERP starting April 28, 2026. Clear any pending dues before April 20.",
+    "tags": ["exam timetable", "end semester", "hall ticket", "theory exams", "practical exams", "even semester 2026"]
+  },
+  {
+    "id": "NOT-2026-05",
+    "noticeNumber": "COE/FEE/2026/05",
+    "title": "Last Date for End-Semester Examination Fee Payment",
+    "category": "notices",
+    "datePublished": "2026-03-05",
+    "urgency": "Urgent",
+    "department": "All Departments",
+    "summary": "All undergraduate and postgraduate students appearing for the May 2026 examinations must pay the semester exam fee online via ERP:\n- Last date without fine: March 25, 2026\n- Last date with a late fine of Rs. 500: March 31, 2026\n- Strict cutoff date: April 5, 2026 with Rs. 1,500 fine (no payments accepted thereafter).\nRegular paper fee: Rs. 400 per theory paper, Rs. 500 per practical paper. Arrear paper fee: Rs. 600 per paper.",
+    "actionRequired": "Pay exam fees before March 25, 2026 to avoid late fees.",
+    "tags": ["exam fee", "fee payment", "deadline", "late fine", "march 25", "controller of examinations"]
+  },
+  {
+    "id": "NOT-2026-06",
+    "noticeNumber": "R&D/HACK/2026/06",
+    "title": "National Level 36-Hour Hackathon: InnovateX 2026",
+    "category": "notices",
+    "datePublished": "2026-03-08",
+    "urgency": "Medium",
+    "department": "All Departments",
+    "summary": "The Department of Computer Science & Engineering in association with IEEE Student Branch announces 'InnovateX 2026', a 36-hour offline hackathon on April 17-18, 2026. Themes include Generative AI, Smart Healthcare, Web3, and Sustainable Green Tech. Total cash prize pool is Rs. 1,50,000. Teams of 2 to 4 members may register.",
+    "actionRequired": "Register your team at hackathon.college.edu before April 10, 2026.",
+    "tags": ["hackathon", "innovatex", "ieee", "coding contest", "prizes", "april 10 deadline"]
+  },
+  {
+    "id": "NOT-2026-07",
+    "noticeNumber": "ACAD/INT/2026/07",
+    "title": "Mandatory Summer Internship Guidelines for 6th Semester B.Tech Students",
+    "category": "notices",
+    "datePublished": "2026-03-02",
+    "urgency": "High",
+    "department": "CSE, ECE, IT, MECH",
+    "summary": "All students currently in their 6th semester are required to undergo a minimum 6-week industrial summer internship between June 1 and July 15, 2026. Company offer letters and Non-Disclosure / NOC forms must be submitted to the Department Internship Coordinator by May 15, 2026. The final viva-voce carries 2 course credits.",
+    "actionRequired": "Submit internship company acceptance letter and NOC before May 15, 2026.",
+    "tags": ["internship", "6th semester", "summer internship", "noc", "credits", "may 15"]
+  },
+  {
+    "id": "NOT-2026-08",
+    "noticeNumber": "ESTATE/PWR/2026/08",
+    "title": "Hostel Block B Scheduled Electrical Maintenance",
+    "category": "notices",
+    "datePublished": "2026-03-09",
+    "urgency": "Low",
+    "department": "Hostel Residents",
+    "summary": "There will be a scheduled power shutdown for transformer servicing in Hostel Block B on Sunday, March 15, 2026 between 10:00 AM and 2:00 PM. High-capacity diesel backup will support corridor lighting and Wi-Fi access points only.",
+    "actionRequired": "Hostel Block B residents should plan study and electrical device charging accordingly.",
+    "tags": ["hostel", "block b", "power shutdown", "maintenance", "march 15"]
+  }
+]

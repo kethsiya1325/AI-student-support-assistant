@@ -1,0 +1,82 @@
+[
+  {
+    "id": "REG-01",
+    "clause": "Clause 4.1",
+    "title": "Grading System & Grade Points",
+    "category": "regulations",
+    "content": "The university adopts an absolute 10-point grading system. Letter grades and corresponding grade points are awarded as follows:\n- O (Outstanding): 90-100 marks, Grade Point = 10\n- A+ (Excellent): 80-89 marks, Grade Point = 9\n- A (Very Good): 70-79 marks, Grade Point = 8\n- B+ (Good): 60-69 marks, Grade Point = 7\n- B (Above Average): 55-59 marks, Grade Point = 6\n- C (Satisfactory / Pass): 50-54 marks, Grade Point = 5\n- F (Fail / Reappearance): < 50 marks, Grade Point = 0\n- SA (Shortage of Attendance / Detained): Grade Point = 0\n- W (Withdrawal): Authorized withdrawal from examination.\nA student must secure a minimum of Grade 'C' (Grade Point 5) in each course to earn the credits for that course.",
+    "tags": ["grading", "marks", "grades", "sgpa", "cgpa", "grade point", "pass marks", "fail"]
+  },
+  {
+    "id": "REG-02",
+    "clause": "Clause 4.2",
+    "title": "Computation of SGPA and CGPA",
+    "category": "regulations",
+    "content": "Semester Grade Point Average (SGPA) is computed at the end of each semester as: SGPA = Sum(C_i * GP_i) / Sum(C_i), where C_i is the number of credits assigned to course i and GP_i is the grade point secured in course i. Cumulative Grade Point Average (CGPA) is calculated over all completed semesters up to that point using: CGPA = Sum(Total Credits * SGPA for all semesters) / Sum(Total Credits across all semesters). Only courses where a student has obtained grade 'C' or higher are included in credits earned.",
+    "tags": ["sgpa", "cgpa", "calculation", "formula", "credits", "gpa"]
+  },
+  {
+    "id": "REG-03",
+    "clause": "Clause 6.1",
+    "title": "Attendance Requirement for End-Semester Examinations",
+    "category": "regulations",
+    "content": "Every student must secure a minimum of 75% overall attendance in each course during the semester to be eligible to appear for the End-Semester Examinations. Attendance is monitored continuously through the ERP portal. A student with 75% or higher attendance is cleared automatically for the hall ticket.",
+    "tags": ["attendance", "75%", "eligibility", "exam hall ticket", "minimum attendance"]
+  },
+  {
+    "id": "REG-04",
+    "clause": "Clause 6.2",
+    "title": "Condonation of Shortage of Attendance",
+    "category": "regulations",
+    "content": "Condonation of attendance shortage between 65% and 74% (inclusive) may be granted by the Academic Council / Dean of Academics on genuine medical grounds (hospitalization/prolonged illness attested by a registered medical practitioner) or for students officially deputed to represent the university in recognized inter-collegiate sports, cultural festivals, paper presentations, NSS, or NCC camps. Application for condonation along with supporting documents must be submitted at least 7 days before the commencement of theory examinations along with a prescribed condonation fee of Rs. 1,000 per subject.",
+    "tags": ["condonation", "medical certificate", "shortage", "65%", "74%", "duty leave", "exemption"]
+  },
+  {
+    "id": "REG-05",
+    "clause": "Clause 6.3",
+    "title": "Detention Due to Severe Attendance Shortage",
+    "category": "regulations",
+    "content": "Students who have secured less than 65% overall attendance in a course are not eligible for condonation under any circumstances. Such students are categorized as 'SA' (Shortage of Attendance) and are detained. They are not permitted to write the end-semester examination for that course. A detained student must re-register and repeat the course in a subsequent semester when it is offered.",
+    "tags": ["detention", "detained", "below 65%", "repeat course", "re-register", "attendance shortage"]
+  },
+  {
+    "id": "REG-06",
+    "clause": "Clause 7.1",
+    "title": "Evaluation Scheme and Passing Criteria",
+    "category": "regulations",
+    "content": "Evaluation for theory courses consists of two components: Continuous Internal Assessment (CIA) carrying 40 marks and End-Semester Examination (ESE) carrying 60 marks. To pass a theory course, a student must secure at least 45% marks in the End-Semester Examination (27 out of 60) AND an aggregate of at least 50% combined across CIA and ESE (50 out of 100). For laboratory courses, CIA carries 60 marks and End-Semester practical examination carries 40 marks.",
+    "tags": ["passing marks", "internal assessment", "cia", "end semester", "weightage", "40:60", "lab exam"]
+  },
+  {
+    "id": "REG-07",
+    "clause": "Clause 8.1",
+    "title": "Degree Classification & Honors/Minors",
+    "category": "regulations",
+    "content": "Degrees are classified as follows:\n- First Class with Distinction: CGPA >= 8.50, secured within the standard duration of 4 years (or 3 years for lateral entry) without any arrear or attempt in supplementary exams.\n- First Class: CGPA >= 6.50 and < 8.50 within maximum allowable time.\n- Second Class: CGPA >= 5.00 and < 6.50.\n- B.Tech (Honors): Awarded to students who maintain CGPA >= 8.0 with zero arrears and earn an additional 18-20 specialized advanced credits.\n- B.Tech with Minor: Awarded to students who earn an additional 18 credits in an interdisciplinary basket outside their parent department.",
+    "tags": ["degree classification", "distinction", "first class", "honors", "minors", "cgpa requirement"]
+  },
+  {
+    "id": "REG-08",
+    "clause": "Clause 9.1",
+    "title": "Arrear and Supplementary Examinations",
+    "category": "regulations",
+    "content": "A student who secures an 'F' grade in any course must re-appear for that course during the subsequent semester supplementary or regular examination. There is no limit on the number of attempts within the maximum permitted degree period (N+2 years, where N is 4 years for regular B.Tech). For final-year students (8th semester), a Fast-Track Special Supplementary Examination is conducted in July to enable timely graduation.",
+    "tags": ["arrears", "supplementary", "backlog", "re-exam", "fast track", "attempts", "maximum duration"]
+  },
+  {
+    "id": "REG-09",
+    "clause": "Clause 10.1",
+    "title": "Revaluation & Photocopy of Answer Scripts",
+    "category": "regulations",
+    "content": "A candidate can apply for a photocopy of their evaluated answer script within 10 working days of result declaration by paying a fee of Rs. 500 per paper. After reviewing the answer script with the course instructor, if genuine discrepancy or under-evaluation is observed, the student may apply for Revaluation within 5 days of receiving the photocopy with a revaluation fee of Rs. 1,000 per paper. If the revaluation leads to an upward revision of 15% or more, 50% of the revaluation fee will be refunded.",
+    "tags": ["revaluation", "photocopy", "paper check", "marks recount", "fee", "refund", "re-evaluation"]
+  },
+  {
+    "id": "REG-10",
+    "clause": "Clause 11.2",
+    "title": "Malpractice Policy & Disciplinary Penalties",
+    "category": "regulations",
+    "content": "Any student found copying, possessing unauthorized materials (written chits, formula sheets, programmable calculators, smartwatch, smartphone, digital devices) inside the examination hall is subjected to the Malpractice Disciplinary Committee:\n- Possession of unauthorized paper/electronic material: Cancellation of that examination paper and forfeiture of CIA marks for that course.\n- Copying from neighbor or assisting others: Cancellation of all examinations written in the current semester session.\n- Impersonation or tampering with answer book: Debarment from the university for 1 to 2 academic years and formal police reporting.",
+    "tags": ["malpractice", "cheating", "disciplinary", "exam misconduct", "debarred", "cellphone in exam"]
+  }
+]

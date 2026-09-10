@@ -1,0 +1,290 @@
+[
+  {
+    "id": "SYL-CS204",
+    "courseCode": "CS204",
+    "courseTitle": "Operating Systems",
+    "department": "Computer Science & Engineering",
+    "departmentCode": "CSE",
+    "semester": 4,
+    "credits": 4,
+    "lectureTutorialPractical": "3-1-0-4",
+    "prerequisites": ["CS101 Programming in C", "CS201 Data Structures"],
+    "category": "syllabus",
+    "overview": "Provides an in-depth understanding of operating system principles including process management, threads, CPU scheduling algorithms, inter-process communication, deadlocks, virtual memory management, file systems, and storage allocation.",
+    "units": [
+      {
+        "unitNumber": 1,
+        "title": "Introduction to Operating Systems & System Structures",
+        "topics": "Operating system overview, dual-mode operation, system calls, OS structures (Monolithic, Layered, Microkernel, Hybrid), virtual machines, boot process."
+      },
+      {
+        "unitNumber": 2,
+        "title": "Process Management, Threads & CPU Scheduling",
+        "topics": "Process control block (PCB), process state transitions, context switching, inter-process communication (Pipes, Shared Memory, Message Queues). Multithreading models. Scheduling criteria, algorithms (FCFS, SJF, SRTF, Priority, Round Robin, Multi-Level Queue)."
+      },
+      {
+        "unitNumber": 3,
+        "title": "Process Synchronization & Deadlocks",
+        "topics": "Critical section problem, Peterson's algorithm, hardware synchronization, Semaphores, Monitors, Classical synchronization problems (Dining Philosophers, Producer-Consumer, Readers-Writers). Deadlock characterization, prevention, avoidance (Banker's Algorithm), detection and recovery."
+      },
+      {
+        "unitNumber": 4,
+        "title": "Memory Management & Virtual Memory",
+        "topics": "Contiguous memory allocation, Paging, Segmentation, Hierarchical paging. Virtual memory: Demand paging, Page replacement algorithms (FIFO, Optimal, LRU, LFU), Thrashing, Working set model."
+      },
+      {
+        "unitNumber": 5,
+        "title": "Storage Management & File Systems",
+        "topics": "File concepts, access methods, directory structures, file allocation methods (Contiguous, Linked, Indexed), free-space management. Disk structure, disk scheduling (FCFS, SSTF, SCAN, C-SCAN, LOOK), RAID architectures."
+      }
+    ],
+    "textbooks": [
+      "Abraham Silberschatz, Peter Baer Galvin, Greg Gagne, 'Operating System Concepts', 10th Edition, Wiley, 2018.",
+      "Andrew S. Tanenbaum, Herbert Bos, 'Modern Operating Systems', 4th Edition, Pearson, 2015."
+    ],
+    "referenceBooks": [
+      "William Stallings, 'Operating Systems: Internals and Design Principles', 9th Edition, Pearson, 2018."
+    ],
+    "tags": ["operating systems", "cs204", "scheduling", "deadlocks", "paging", "processes", "cse", "semester 4"]
+  },
+  {
+    "id": "SYL-CS201",
+    "courseCode": "CS201",
+    "courseTitle": "Data Structures & Algorithms",
+    "department": "Computer Science & Engineering",
+    "departmentCode": "CSE",
+    "semester": 3,
+    "credits": 4,
+    "lectureTutorialPractical": "3-1-0-4",
+    "prerequisites": ["CS101 Programming in C / Python"],
+    "category": "syllabus",
+    "overview": "Fundamental data structures and algorithm design techniques. Stacks, queues, linked lists, binary search trees, AVL trees, B-Trees, heaps, graph traversals (BFS, DFS), sorting and searching algorithms.",
+    "units": [
+      {
+        "unitNumber": 1,
+        "title": "Linear Data Structures",
+        "topics": "Abstract Data Types (ADTs), Arrays, Singly linked list, Doubly linked list, Circular linked list, Applications of linked lists (Polynomial addition)."
+      },
+      {
+        "unitNumber": 2,
+        "title": "Stacks and Queues",
+        "topics": "Stack operations, Infix to Postfix conversion, Evaluation of postfix expressions. Queue operations, Circular queue, Priority queue, Deque."
+      },
+      {
+        "unitNumber": 3,
+        "title": "Non-Linear Data Structures: Trees",
+        "topics": "Binary Trees, Binary Search Trees (BST), AVL Trees, Red-Black Trees, B-Trees, B+ Trees, Heaps and Heap Sort."
+      },
+      {
+        "unitNumber": 4,
+        "title": "Graphs and Traversals",
+        "topics": "Graph representations (Adjacency matrix, Adjacency list), Breadth First Search (BFS), Depth First Search (DFS), Topological Sorting, Minimum Spanning Trees (Prim's, Kruskal's), Shortest Path (Dijkstra's Algorithm)."
+      },
+      {
+        "unitNumber": 5,
+        "title": "Hashing and Algorithm Analysis",
+        "topics": "Hash functions, Collision resolution techniques (Chaining, Open Addressing), Asymptotic notations (Big O, Omega, Theta), Sorting algorithms (Quick Sort, Merge Sort, Radix Sort)."
+      }
+    ],
+    "textbooks": [
+      "Mark Allen Weiss, 'Data Structures and Algorithm Analysis in C++', 4th Edition, Pearson, 2014.",
+      "Ellis Horowitz, Sartaj Sahni, Susan Anderson-Freed, 'Fundamentals of Data Structures in C', 2nd Edition, Silicon Press, 2008."
+    ],
+    "referenceBooks": [
+      "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein, 'Introduction to Algorithms', 3rd Edition, MIT Press, 2009."
+    ],
+    "tags": ["data structures", "cs201", "trees", "graphs", "sorting", "bst", "algorithms", "cse", "semester 3"]
+  },
+  {
+    "id": "SYL-CS205",
+    "courseCode": "CS205",
+    "courseTitle": "Database Management Systems",
+    "department": "Computer Science & Engineering",
+    "departmentCode": "CSE",
+    "semester": 4,
+    "credits": 4,
+    "lectureTutorialPractical": "3-0-2-4",
+    "prerequisites": ["CS201 Data Structures"],
+    "category": "syllabus",
+    "overview": "Entity-Relationship modeling, relational algebra, SQL queries, normalization (1NF, 2NF, 3NF, BCNF), transaction processing, concurrency control, and NoSQL databases.",
+    "units": [
+      {
+        "unitNumber": 1,
+        "title": "Introduction to Databases & ER Model",
+        "topics": "Database system architecture, data models, Entity-Relationship (ER) diagram, Extended ER features, Relational data model concepts and constraints."
+      },
+      {
+        "unitNumber": 2,
+        "title": "Relational Algebra & SQL",
+        "topics": "Relational algebra operations, DDL, DML, DCL commands, complex SQL queries, nested queries, aggregate functions, views, triggers, and stored procedures."
+      },
+      {
+        "unitNumber": 3,
+        "title": "Database Design & Normalization",
+        "topics": "Functional dependencies, inference rules, decomposition, Normal forms: 1NF, 2NF, 3NF, Boyce-Codd Normal Form (BCNF), multi-valued dependencies and 4NF."
+      },
+      {
+        "unitNumber": 4,
+        "title": "Transactions & Concurrency Control",
+        "topics": "ACID properties, serializability, lock-based protocols (2-Phase Locking), timestamp ordering, deadlock handling in databases, recovery systems and write-ahead logging (WAL)."
+      },
+      {
+        "unitNumber": 5,
+        "title": "Indexing, Query Optimization & NoSQL",
+        "topics": "File organization, B+ tree indexing, query processing and optimization strategies. Overview of NoSQL databases: MongoDB document stores, key-value stores."
+      }
+    ],
+    "textbooks": [
+      "Raghu Ramakrishnan, Johannes Gehrke, 'Database Management Systems', 3rd Edition, McGraw-Hill, 2014.",
+      "Ramez Elmasri, Shamkant B. Navathe, 'Fundamentals of Database Systems', 7th Edition, Pearson, 2017."
+    ],
+    "referenceBooks": [
+      "Silberschatz, Korth, Sudarshan, 'Database System Concepts', 7th Edition, McGraw-Hill, 2019."
+    ],
+    "tags": ["dbms", "cs205", "sql", "normalization", "transactions", "acid", "er diagram", "cse", "semester 4"]
+  },
+  {
+    "id": "SYL-CS301",
+    "courseCode": "CS301",
+    "courseTitle": "Artificial Intelligence & Machine Learning",
+    "department": "Computer Science & Engineering",
+    "departmentCode": "CSE",
+    "semester": 6,
+    "credits": 4,
+    "lectureTutorialPractical": "3-0-2-4",
+    "prerequisites": ["MA202 Discrete Mathematics", "CS201 Data Structures"],
+    "category": "syllabus",
+    "overview": "Covers intelligent agents, heuristic search, adversarial game playing, supervised learning (regression, classification, SVM), unsupervised clustering (K-Means, PCA), neural networks, and deep learning basics.",
+    "units": [
+      {
+        "unitNumber": 1,
+        "title": "Introduction to AI & Problem Solving",
+        "topics": "Agents and environments, state space representation, uninformed search (BFS, DFS, Uniform Cost), informed search (A* Search, Greedy Best First), heuristic evaluation functions."
+      },
+      {
+        "unitNumber": 2,
+        "title": "Adversarial Search & Knowledge Representation",
+        "topics": "Game playing, Minimax algorithm, Alpha-Beta pruning. Propositional logic, first-order predicate logic, resolution refutation, ontology and semantic networks."
+      },
+      {
+        "unitNumber": 3,
+        "title": "Supervised Learning",
+        "topics": "Linear regression, logistic regression, decision trees, random forests, Naive Bayes classifier, Support Vector Machines (SVM), evaluation metrics (Precision, Recall, F1-Score, ROC-AUC)."
+      },
+      {
+        "unitNumber": 4,
+        "title": "Unsupervised Learning & Dimensionality Reduction",
+        "topics": "K-Means clustering, Hierarchical clustering, Expectation-Maximization, Principal Component Analysis (PCA), Linear Discriminant Analysis (LDA)."
+      },
+      {
+        "unitNumber": 5,
+        "title": "Neural Networks & Modern AI Trends",
+        "topics": "Perceptron, Multilayer Perceptron (MLP), Backpropagation algorithm, Introduction to Convolutional Neural Networks (CNN) and Recurrent Neural Networks (RNN), overview of Generative AI."
+      }
+    ],
+    "textbooks": [
+      "Stuart Russell, Peter Norvig, 'Artificial Intelligence: A Modern Approach', 4th Edition, Pearson, 2020.",
+      "Tom M. Mitchell, 'Machine Learning', McGraw-Hill, 1997."
+    ],
+    "referenceBooks": [
+      "Christopher Bishop, 'Pattern Recognition and Machine Learning', Springer, 2006."
+    ],
+    "tags": ["ai", "machine learning", "cs301", "neural networks", "a*", "minimax", "svm", "clustering", "cse", "semester 6"]
+  },
+  {
+    "id": "SYL-EC201",
+    "courseCode": "EC201",
+    "courseTitle": "Digital Signal Processing",
+    "department": "Electronics & Communication Engineering",
+    "departmentCode": "ECE",
+    "semester": 4,
+    "credits": 4,
+    "lectureTutorialPractical": "3-1-0-4",
+    "prerequisites": ["EC102 Signals & Systems"],
+    "category": "syllabus",
+    "overview": "Discrete-time signals and systems, Discrete Fourier Transform (DFT), Fast Fourier Transform (FFT) algorithms, design of Infinite Impulse Response (IIR) and Finite Impulse Response (FIR) digital filters, finite word length effects.",
+    "units": [
+      {
+        "unitNumber": 1,
+        "title": "Discrete Fourier Transform & FFT",
+        "topics": "Review of DTFT, Discrete Fourier Transform (DFT), properties of DFT, circular convolution. Fast Fourier Transform (FFT) algorithms: Radix-2 Decimation-in-Time (DIT) and Decimation-in-Frequency (DIF) algorithms."
+      },
+      {
+        "unitNumber": 2,
+        "title": "IIR Filter Design",
+        "topics": "Analog filter approximations (Butterworth, Chebyshev), transformation of analog filters to digital filters: Bilinear Transformation, Impulse Invariance method, frequency warping."
+      },
+      {
+        "unitNumber": 3,
+        "title": "FIR Filter Design",
+        "topics": "Linear phase characteristics of FIR filters, windowing techniques (Rectangular, Hamming, Hanning, Blackman), frequency sampling design method, comparison of IIR and FIR filters."
+      },
+      {
+        "unitNumber": 4,
+        "title": "Finite Word Length Effects",
+        "topics": "Fixed point and floating point number representations, ADC quantization noise, coefficient quantization error, limit cycle oscillations, deadband effect."
+      },
+      {
+        "unitNumber": 5,
+        "title": "Multirate Signal Processing & DSP Processors",
+        "topics": "Decimation, interpolation, sampling rate conversion, polyphase decomposition. Architecture of TMS320C6x DSP processor, MAC unit, pipelining."
+      }
+    ],
+    "textbooks": [
+      "John G. Proakis, Dimitris G. Manolakis, 'Digital Signal Processing: Principles, Algorithms and Applications', 4th Edition, Pearson, 2007.",
+      "Alan V. Oppenheim, Ronald W. Schafer, 'Discrete-Time Signal Processing', 3rd Edition, Prentice Hall, 2009."
+    ],
+    "referenceBooks": [
+      "Sanjit K. Mitra, 'Digital Signal Processing: A Computer-Based Approach', 4th Edition, McGraw-Hill, 2011."
+    ],
+    "tags": ["dsp", "ec201", "signal processing", "fft", "fir", "iir", "filters", "ece", "semester 4"]
+  },
+  {
+    "id": "SYL-EC202",
+    "courseCode": "EC202",
+    "courseTitle": "Microprocessors & Microcontrollers",
+    "department": "Electronics & Communication Engineering",
+    "departmentCode": "ECE",
+    "semester": 4,
+    "credits": 4,
+    "lectureTutorialPractical": "3-0-2-4",
+    "prerequisites": ["EC101 Digital Logic Design"],
+    "category": "syllabus",
+    "overview": "8086 microprocessor architecture, assembly language programming, memory interfacing, 8051 microcontroller architecture, peripheral interfacing (timers, serial communication, DAC, ADC, stepper motor).",
+    "units": [
+      {
+        "unitNumber": 1,
+        "title": "8086 Microprocessor Architecture",
+        "topics": "Architecture of 8086, Bus Interface Unit (BIU), Execution Unit (EU), register organization, memory segmentation, pin diagram, minimum and maximum mode operations, interrupt structure."
+      },
+      {
+        "unitNumber": 2,
+        "title": "8086 Assembly Language Programming",
+        "topics": "Addressing modes, instruction set (data transfer, arithmetic, logical, string, branch), assembler directives, assembly code for arithmetic and array operations, procedures and macros."
+      },
+      {
+        "unitNumber": 3,
+        "title": "Peripheral Interfacing with 8086",
+        "topics": "8255 Programmable Peripheral Interface (PPI), 8254/8253 Programmable Interval Timer, 8259 Priority Interrupt Controller, 8251 USART, interfacing ADC and DAC."
+      },
+      {
+        "unitNumber": 4,
+        "title": "8051 Microcontroller Architecture",
+        "topics": "Comparison of microprocessor and microcontroller, 8051 block diagram, pin configuration, memory organization (internal RAM/ROM), Special Function Registers (SFRs), I/O ports, timers and counters."
+      },
+      {
+        "unitNumber": 5,
+        "title": "8051 Interfacing & Embedded Applications",
+        "topics": "8051 interrupts, serial communication programming (RS232), interfacing LCD display, matrix keyboard, stepper motor, and relay to 8051."
+      }
+    ],
+    "textbooks": [
+      "A. K. Ray, K. M. Bhurchandi, 'Advanced Microprocessors and Peripherals', 3rd Edition, McGraw-Hill, 2012.",
+      "Muhammad Ali Mazidi, Janice Gillispie Mazidi, Rolin D. McKinlay, 'The 8051 Microcontroller and Embedded Systems', 2nd Edition, Pearson, 2007."
+    ],
+    "referenceBooks": [
+      "Douglas V. Hall, 'Microprocessors and Interfacing', McGraw-Hill, 2005."
+    ],
+    "tags": ["microprocessors", "8086", "8051", "microcontrollers", "ec202", "assembly", "interfacing", "ece", "semester 4"]
+  }
+]
